@@ -82,7 +82,7 @@ popd
 
 cls
 color 07
-title  IDM Activation Script
+title  IDM Lisensi by IT Store ID
 
 set _args=
 set _elev=
@@ -279,7 +279,7 @@ if !errorlevel!==1 (start https://github.com & start %mas%/idm-activation-script
 ::========================================================================================================================================
 
 cls
-title  IDM Activation Script
+title  IDM Lisensi by IT Store ID
 
 echo:
 echo Initializing...
@@ -378,7 +378,7 @@ if %_freeze%==1 (set frz=1&goto :_activate)
 :MainMenu
 
 cls
-title  IDM Activation Script
+title  IDM Lisensi by IT Store ID
 if not defined terminal mode 75, 28
 
 echo:
